@@ -61,6 +61,7 @@
     display: flex;
     flex-direction: column;
     /* margin: 1rem; */
+    margin-left: 0.5rem;
   }
   
   .card-btn-and-icons{
@@ -140,8 +141,13 @@
   
   .card-heading2{
     position: absolute;
-    bottom: 400px;
-    margin-left: 10px;
+    /* position: relative; */
+    /* bottom: 400px; */
+    top:150px;
+    /* grid-column: 1 / 1;
+    grid-row: 2 / 1; */
+    /* color: white */
+    /* margin-left: 10px; */
   }
   
   .card-image-header4{
